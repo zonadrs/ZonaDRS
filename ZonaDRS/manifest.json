@@ -1,0 +1,14 @@
+
+{
+  "name": "ZonaDRS",
+  "short_name": "ZonaDRS",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#ff0000",
+  "icons": [{
+    "src": "img/icon-192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }]
+}
