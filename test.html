@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>¿Qué piloto eres tú? - ZonaDRS</title>
+  <link rel="stylesheet" href="test.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>¿Qué piloto de F1 eres tú?</h1>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. ¿Cómo prefieres ganar una carrera?</p>
+        <label><input type="radio" name="q1" value="Verstappen"> Desde la pole, dominando</label>
+        <label><input type="radio" name="q1" value="Alonso"> Con estrategia e inteligencia</label>
+        <label><input type="radio" name="q1" value="Leclerc"> Luchando hasta la última curva</label>
+        <label><input type="radio" name="q1" value="Norris"> Aprovechando el caos</label>
+      </div>
+      <div class="question">
+        <p>2. ¿Qué cualidad te define más?</p>
+        <label><input type="radio" name="q2" value="Hamilton"> Constancia</label>
+        <label><input type="radio" name="q2" value="Tsunoda"> Pasión</label>
+        <label><input type="radio" name="q2" value="Russell"> Precisión</label>
+        <label><input type="radio" name="q2" value="Ricciardo"> Buen rollo</label>
+      </div>
+      <div class="question">
+        <p>3. ¿Qué escudería te representa mejor?</p>
+        <label><input type="radio" name="q3" value="Sainz"> Ferrari</label>
+        <label><input type="radio" name="q3" value="Perez"> Red Bull</label>
+        <label><input type="radio" name="q3" value="Piastri"> McLaren</label>
+        <label><input type="radio" name="q3" value="Gasly"> Alpine</label>
+      </div>
+      <button type="submit">Ver resultado</button>
+    </form>
+
+    <div id="resultado" class="resultado" style="display:none;">
+      <h2>¡Tu piloto es: <span id="pilotoNombre"></span>!</h2>
+      <img id="pilotoImg" src="" alt="Foto del piloto" />
+      <p id="pilotoDesc"></p>
+    </div>
+  </div>
+
+  <script src="test.js"></script>
+</body>
+</html>
