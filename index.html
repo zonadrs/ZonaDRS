@@ -1,41 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZonaDRS - Fórmula 1 para fans</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZonaDRS</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>ZonaDRS</h1>
     <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Test</a></li>
-        <li><a href="#">Clasificación</a></li>
-        <li><a href="#">Curiosidades</a></li>
-      </ul>
+      <a href="#">INICIO</a>
+      <a href="#">BLOG</a>
+      <a href="#">TEST</a>
+      <a href="#">CURSOSIDADES</a>
     </nav>
   </header>
 
   <main>
-    <section class="bienvenida">
-      <h2>¡Bienvenido a ZonaDRS!</h2>
-      <p>Tu espacio para vivir la Fórmula 1 como un auténtico fan. Noticias, tests, curiosidades, y mucho más.</p>
+    <section class="featured">
+      <img src="f1-banner.jpg" alt="GP Banner"/>
+      <div class="featured-label">FEATURED</div>
+      <h2>El arte de la conexión</h2>
     </section>
 
-    <section class="contador">
-      <h2>⏱️ Próximo GP:</h2>
-      <div id="cuenta-regresiva">Cargando...</div>
+    <section class="posts">
+      <article>
+        <img src="post1.jpg" alt="Post 1"/>
+        <h3>Más allá del obstáculo</h3>
+      </article>
+      <article>
+        <img src="post2.jpg" alt="Post 2"/>
+        <h3>Crecimiento desbloqueado</h3>
+      </article>
     </section>
+
+    <aside>
+      <div class="quote">
+        <h4>QUOTE OF THE WEEK</h4>
+        <p>"Lo más importante es ganar con clase y perder con dignidad."</p>
+        <p>~ Fernando Alonso</p>
+      </div>
+    </aside>
   </main>
 
   <footer>
-    <p>&copy; 2025 ZonaDRS. Proyecto independiente de fans. Sin afiliación oficial con la F1.</p>
+    <div>
+      <h4>ACERCA DE</h4>
+      <p>Un blog de fans de la Fórmula 1 para compartir análisis, noticias y pasión por este deporte.</p>
+    </div>
+    <div>
+      <h4>TEMAS</h4>
+      <ul><li><a href="#">Carreras</a></li><li><a href="#">Pilotos</a></li></ul>
+    </div>
+    <div>
+      <h4>SÍGUENOS</h4>
+      <ul><li>Instagram</li><li>Twitter</li><li>YouTube</li></ul>
+    </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
